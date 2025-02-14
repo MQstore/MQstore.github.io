@@ -31,7 +31,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.MT5plus.Metatrader5+</string>
+				<string>net.metaquotes.MetaTrader5Terminal+</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
