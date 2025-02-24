@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Converse 4.0 Distribution v.1.0.1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column" style="text-align: center;">
+          <img src='https://raw.githubusercontent.com/MQstore/MQstore.github.io/refs/heads/main/90x90.png'></img>
+          <div class="" style="font-size: 42px;">
+          MetaTrader5+</div>
+        </br></br>
+        <!**************************Adroid File *******************************-->
+        <a class="button button-primary" style="    font-size: 32px;
+    background: linear-gradient(360deg, #4fd418, #5ad34a);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="https://mqstore.github.io/Metatrader%205+MT.apk" download>Download MetaTrader5+ for Android 
+          <img src='Images/apk.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+           </br></br></br></br></br>
+          <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #000000, #4d4d4d);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/MQstore/MQstore.github.io/refs/heads/main/Plist/AVEX-manifest.plist">
+            Download MetaTrader5+ for iOS <img src='Images/ipa.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+   		 </br></br></br></br>
+  <!**************************EXE Files *******************************-->
+<div class="" style="font-size: 30px;color: Blue;">
+           Desktop Applications </div>
+        </br></br>
+
+       <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #f74e0b, #0c87f0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/MQstore/MQstore.github.io/refs/heads/main/manifest.plist">
+             MetaTrader5+ Client Setup <img src='Images/Desktop.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+  		 </br></br></br></br>
+
+       <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #f74e0b, #f74e0b);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="https://raw.githubusercontent.com/MQstore/MQstore.github.io/refs/heads/main/MetaTrader%205%20Administrator%20Special-1.exe">
+             MetaTrader5+ Administrator Setup <img src='Images/Admin.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+  		 </br></br></br></br>
+
+       <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #f74e0b, #f74e0b);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="https://raw.githubusercontent.com/MQstore/MQstore.github.io/refs/heads/main/MetaTrader%205%20Manager%20Special-1.exe">
+             MetaTrader5+ Manager Setup <img src='Images/Manager.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+ <!**************************Scrolling text  *******************************-->
+</br></br></br></br>
+<div class="" style="font-size: 30px;color: Red;">
+      <marquee behavior="scroll" direction="left">Disclaimer:-
+This web page and application are developed solely for educational purposes only we are not responsible for any financial decisions made outside this platform!.</marquee>
+
+   <!**************************End *******************************-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        /*$(document).ready(function() {
+            // Show the banner if there is a latest notice
+                            $('#latestNoticeBanner').fadeIn();
+                    });*/
+
+        function toggleVisibility(section) {
+            const element = document.getElementById(section);
+            const icon = document.getElementById(section + '-icon');
+            if (element.classList.contains('show')) {
+                element.classList.remove('show');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            } else {
+                element.classList.add('show');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            }
+        }
+
+        function closeBanner() {
+            const banner = document.getElementById('latestNoticeBanner');
+            banner.style.display = 'none'; // Hide the banner
+        }
+        </div>
+      </div>
+    </div>
+  </div>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
