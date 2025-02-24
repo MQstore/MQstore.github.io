@@ -33,7 +33,7 @@
 				<key>bundle-identifier</key>
 				<string>net.metaquotes.MetaTrader5Pluse</string>
 				<key>bundle-version</key>
-				<string>6.0</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
