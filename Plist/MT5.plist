@@ -31,15 +31,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>net.metaquotes.MetaTrader5pluse</string>
+				<string>net.metaquotes.MetaTrader5Pluse</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>6.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Metatrader 5+</string>
+				<string>MetaTrader 5+</string>
 				<key>title</key>
-				<string>Metatrader 5+</string>
+				<string>MetaTrader 5+</string>
 			</dict>
 		</dict>
 	</array>
